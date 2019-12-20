@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_set_warehouse" model="ir.ui.view">
+        <field name="name">sale_order_warehouse.warehouse.view</field>
+        <field name="model">sale_order_warehouse.warehouse</field>
+        <field name="arch" type="xml">
+            <form string="Choose a warehouse">
+                <group>
+                    <field name="warehouse_id" placeholder="Warehouse" />
+                </group>
+                <footer>
+                    <button name="process" string="_Apply" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
