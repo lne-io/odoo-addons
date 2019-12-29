@@ -8,7 +8,7 @@
     'website': 'https://github.com/lne-io/',
     'summary': "Set warehouse before confirming a sale order.",
     'description': "",
-    'depends': ['base', 'stock', 'sale'],
+    'depends': ['base', 'stock', 'sale', 'sale_stock'],
     'data': [
         'wizard/warehouse_view.xml',
     ],
